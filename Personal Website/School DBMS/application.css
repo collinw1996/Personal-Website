@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+.Header {
+	font-family: 'Baloo',cursive; font-size: 28px;
+	text-shadow: 1px 1px grey;
+	width: 50%;
+	text-align:center;
+	margin:0 auto;
+	display: block;
+	padding-bottom: 10px;
+}
+
+#Title {
+	margin-bottom:-7%;			/* Remove some space between main heading and sub-heading*/
+}
+
+body {
+	background: -moz-linear-gradient(left, rgba(196,230,253,1) 0%, rgba(97,178,239,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(196,230,253,1) 0%, rgba(97,178,239,1) 100%);
+	background: -o-linear-gradient(left, rgba(196,230,253,1) 0%, rgba(97,178,239,1) 100%);
+	background: -ms-linear-gradient(left, rgba(196,230,253,1) 0%, rgba(97,178,239,1) 100%);
+	background: linear-gradient(to right, rgba(196,230,253,1) 0%, rgba(97,178,239,1) 100%);
+	width: 100%;
+	height: 100%;
+}
+.login {									/*Login divider*/
+	margin: 0 auto;
+	width:350px;
+	font-family:Arial;
+	font-size:15px;
+	text-shadow: 1px 1px 0px #7cacde;
+	font-weight:bold;
+}
+#loginForm {							/*Login fieldset (box around contents)*/
+	width:350px;
+	border: 1px solid #dcdcdc;
+	border-radius:10px;
+	text-align: left;
+	padding: 10px 10px;
+}
+
+#formHeader {							/*Login - Legend for fieldset settings*/
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+label {										/*Allow labels to be horizontally aligned together*/
+	display: inline-block;
+}
+
+#userText,#passText {			/*Create a box around username and password label to align textboxes*/
+	width:80px;
+}
+
+input[type="text"],[type="password"] {			/*Username and Password textbox settings*/
+	width: 200px;
+	border: 1px solid #dcdcdc;
+	margin: 2px;
+  border-radius: 5px;
+	padding: 2px
+}
+/*--------------------------------------Button----------------------------*/
+.btn {
+	float:right;
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf));
+	background:-moz-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-webkit-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-o-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-ms-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0);
+	background-color:#63b8ee;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
+	background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-o-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-ms-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee',GradientType=0);
+	background-color:#468ccf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+/*--------------------------------------Button----------------------------*/
+.adminIcon {		/*Image settings and alignment to center*/
+	display:block;
+	margin: 0 auto;
+}

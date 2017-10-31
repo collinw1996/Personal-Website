@@ -1,0 +1,176 @@
+body{
+    background-color: grey;
+    font-family: "Times New Roman", Times, serif;
+}
+/* Start of Header */
+header h1 {
+    margin-left:40%;
+}
+
+nav{
+  width: 100.5%;
+}
+
+nav ul {
+    list-style: none;
+    margin-top:-1%;
+    margin-left: -0.5%;
+    padding-top: 8px;
+    overflow: hidden;
+    background-color: #111;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #e2e0e0;
+    color: black;
+}
+
+.active{
+  background-color: grey;
+}
+
+#name{
+  float: left;
+}
+
+#name a:hover{
+  background-color: #111;
+  color: white;
+}
+/* End of header */
+
+/* Start of body */
+
+#me{
+  float: right;
+  margin-top: 35px;
+  margin-right: 2%;
+  height: 600px;
+  width: 40%;
+  border-radius: 0;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.text{
+  float: left;
+  margin-left: 5%;
+  margin-top: 35px;
+  padding: 1%;
+  font-size: 110%;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  border-radius: 0;
+  background-color: white;
+  width:42%;
+}
+
+#resume{
+  width:60%;
+}
+
+.download{
+  float: right;
+  width:20%;
+  margin-right: 2%;
+  margin-top: 35px;
+  padding: 1%;
+  font-size: 110%;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  border-radius: 0;
+  background-color: #595959;
+  text-align: center;
+}
+
+#profile{
+  margin-top: 300px;
+  margin-right:-22.6%;
+}
+
+#contact{
+  text-align: left;
+}
+
+#contact a{
+  color: black;
+}
+
+#contact a:hover{
+  color: white;
+}
+
+#project{
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 0;
+}
+form{
+  float: left;
+  width: 94%;
+  margin-left: 2%;
+  margin-top: 35px;
+  font-size: 130%;
+}
+
+.email{
+  width: 100%;
+  height: 30px;
+  padding: 1%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 0;
+  font-size: 130%;
+}
+
+#message{
+  height: 100px;
+}
+
+.button{
+  background-color: white;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  width: 100%;
+  height: 70px;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+footer{
+  float:left;
+  margin-top: 200px;
+  width:100%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Collin</title>
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+    <link rel="icon" href="Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <script type="text/javascript" src="application.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li id="name"><a href="index.html">Collin Woodruff</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="index.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+<article>
+  <section class="text" id="resume">
+    <form action="add_user.php" method="post">
+    <p style= "text-align: center; font-size: 150%;"><strong>Send me a message!</strong></p><br/>
+    First Name:*<br/>
+    <input type="text" name="fname" class="email" required><br/>
+    <br/>
+    Last Name:*<br/>
+    <input type="text" name="lname" class="email" required><br/>
+    <br/>
+    Email:*<br/>
+    <input type="email" name="email" class="email" required><br/>
+    <br/>
+    Message:*<br/>
+    <textarea class="email" name="message" id="message" required></textarea>
+    * = required field<br/>
+    <br/>
+    <input type="submit" value="Send" class="button">
+  </form>
+  </section>
+  <section id="contact" class="download">
+      <h2>Contact Information:</h2>
+      <p>Email: <br/>
+      <a href="mailto:collin.woodruff@yahoo.com">collin.woodruff@yahoo.com</a></p>
+      <p>Phone Number: <br/>
+      <a href= "tel:240-566-6486">240-566-6486</a></p>
+      <p>Feel free to contact me at any time!</p>
+  </section>
+</article>
+
+<footer>
+<hr/>
+<p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="resume.html">Resume</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a></p>
+<p><em>Copyright &copy; 2017 Collin's World</em></p>
+</footer>
+
+</body>
+</html>

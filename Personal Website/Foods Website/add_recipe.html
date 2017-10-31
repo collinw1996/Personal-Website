@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a Recipe</title>
+    <link rel="stylesheet" type ="text/css" href="application.css">
+</head>
+<body>
+  <header>
+      <h1>Favorite Foods</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="sign_up.html">Sign up</a></li>
+          </ul>
+      </nav>
+  </header>
+  <form action="add_recipe.php" method="post">
+    <fieldset>
+      <legend>Add a Recipe</legend>
+		Select recipe by type: <select name="type">
+		    <option value="Italian">Italian</option>
+		    <option value="Mexican">Mexican</option>
+		    <option value="American">American</option>
+	  </select>
+    <br/>
+    Recipe Name:<input type="text" name="recipe" id="recipe" required><br/>
+    Rating:<input type="text" name="rating" id="rating" required><br/>
+    Price:<input type="text" name="price" id="price" required><br/>
+		<input type="submit" />
+		</fieldset>
+	</form>
+  <hr/>
+  <footer>
+    <p><a href="index.html">Home</a> | <a href="recipes.html">Recipes</a> | <a href="resources.html">Resources</a></p>
+    <p><div id="em">Copyright &copy; 2016 Favorite Foods</div></p>
+  </footer>
+</body>
+</html>

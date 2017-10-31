@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<link href="application.css" type="text/css" rel="stylesheet" />
+		<meta charset="utf-8">
+		<title>Login</title>
+		<!-- Header information -->
+			<div class="Header">
+				<h1 id="Title">EDUM-Solutions</h1>
+				<h3 id="subTitle">Education Management Solutions</h3>
+			</div>
+		<!--End Header -->
+		</head>
+	<body>
+		<img class="adminIcon" src="admin-icon.png" alt="Admin" />
+	<!-- Login form field start -->
+	<div class="login">
+    <form action = "user.php" method = "post">		<!-- Change form method to post -->
+				<fieldset id="loginForm">
+        <legend id="formHeader">Login</legend>
+        	<label id="userText" for="username">Username:</label>
+        	<input id="username" type="text" name="name" required="required" placeholder="Username..."><br />
+
+        	<label id="passText" for="password">Password:</label>
+        	<input id="password" type="password" required="required" placeholder="Password..."><br />
+
+        	<label id="adminOption" for="adminStatus">Admin</label>
+        	<input id="admin" type="radio" name="privileges" value="admin" />
+
+        	<label id="studentOption" for="student">Student</label>
+        	<input id="student" type="radio" name="privileges" value="student" />
+
+        	<label id="teacherOption" for="teacher">Teacher</label>
+        	<input id="teacher" type="radio" name="privileges" value="teacher" /><br />
+
+	 				<input class="btn" type="submit" value="Submit" />
+				</fieldset>
+    	</form>
+		</div>
+	<!-- Login form field end -->
+	</body>
+</div>
+</html>

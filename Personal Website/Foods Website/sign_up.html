@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign UP</title>
+    <link rel="stylesheet" type ="text/css" href="application.css">
+</head>
+<body>
+  <header>
+      <h1>Favorite Foods</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="sign_up.html">Sign up</a></li>
+          </ul>
+      </nav>
+  </header>
+<body>
+  <form action="sign_up.php" method="post">
+	<fieldset>
+	<legend>Recipe Sign Up</legend>
+	Username<input type="text" name="username" id="username" required><br>
+	Email Address<input type="email" name="email" id="email" required><br>
+	Password<input type="password" name="password" id="password" required><br>
+  <input type="submit">
+</fieldset>
+</form>
+<form action="all_users.php" method="post">
+  Click Here to see all users<input type="submit">
+</form>
+<hr/>
+  <footer>
+    <p><a href="index.html">Home</a> | <a href="recipes.html">Recipes</a> | <a href="resources.html">Resources</a></p>
+    <p><div id="em">Copyright &copy; 2016 Favorite Foods</div></p>
+  </footer>
+</body>
+</html>

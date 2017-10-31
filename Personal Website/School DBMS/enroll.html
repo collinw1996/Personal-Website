@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Students</title>
+    <link rel="stylesheet" type ="text/css" href="application.css">
+</head>
+<body>
+<header>
+    <h1>Students</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="enroll.html">Enroll</a></li>
+          <li><a href="hire.html">Hire</a></li>
+          <li><a href="sign_up.html">Sign up</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+  <form action="enroll.php" method="post">
+    <fieldset>
+      <legend>Add a Recipe</legend>
+		Select recipe by type: <select name="year">
+		    <option value="1">Freshman</option>
+		    <option value="2">Sophmore</option>
+		    <option value="3">Junior</option>
+        <option value="4">Senior</option>
+	  </select>
+    <br/>
+    First Name:<input type="text" name="fname" id="fname" required><br/>
+    Last Name:<input type="text" name="lname" id="lname" required><br/>
+		<input type="submit" />
+		</fieldset>
+	</form>
+ <hr/>
+ <footer>
+   <p><a href="index.html">Home</a> | <a href="recipes.html">Recipes</a> | <a href="resources.html">Resources</a></p>
+   <p><div id="em">Copyright &copy; 2016 Favorite Foods</div></p>
+ </footer>
+ </body>
+</html>

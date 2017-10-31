@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Foods Homepage</title>
+    <link rel="stylesheet" type ="text/css" href="application.css">
+    <link rel="stylesheet" type ="text/css" href="slideshow.css">
+</head>
+<body>
+<header>
+    <h1>Favorite Foods</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="sign_up.html">Sign up</a></li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="media/BeefChimichanga.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src= "media/ChickenParm.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src= "media/ApplePie.jpg" style="width:100%">
+        </div>
+    </div>
+    <br/>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="slideshow.js"></script>
+</article>
+<hr/>
+<footer>
+  <p><a href="index.html">Home</a> | <a href="recipes.html">Recipes</a> | <a href="resources.html">Resources</a></p>
+  <p><div id="em">Copyright &copy; 2016 Favorite Foods</div></p>
+</footer>
+</body>
+</html>
